@@ -1,0 +1,14 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rescript",
+    "start": "rescript build -w"
+  },
+  "devDependencies": {
+    "bs-platform": "^9.0.2",
+    "rescript": "^9.1.2"
+  }
+}

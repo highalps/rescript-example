@@ -1,0 +1,8 @@
+build
+**/node_modules
+**/lib
+
+**/*.bs.js
+**/.merlin
+**/.bsb.lock
+**/*.log
