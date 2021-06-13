@@ -1,0 +1,24 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "start": "serve dist --single",
+    "clean": "rescript clean"
+  },
+  "dependencies": {
+    "@rescript/react": "^0.10.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-react-refresh": "^2.5.0",
+    "bs-platform": "^9.0.2",
+    "rescript": "^9.1.3",
+    "serve": "^12.0.0",
+    "snowpack": "^3.5.7"
+  }
+}
